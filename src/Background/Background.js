@@ -7,7 +7,7 @@ export default function Background() {
           <div className="row">
             <div className="red-background"></div>
             <div className="test">
-              <img className="background-image" src={process.env.PUBLIC_URL + './bg-img.png'} />
+              <img className="background-image" src={process.env.PUBLIC_URL + './bg-img.png'} alt="background" />
             </div>
           </div>
         </div>
