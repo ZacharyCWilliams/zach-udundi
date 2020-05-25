@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import "./Social.scss";
 
 export default function Social() {
   return (

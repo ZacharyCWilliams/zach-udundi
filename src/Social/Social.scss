@@ -1,0 +1,36 @@
+.social-section {
+  background-color: transparent;
+  position: fixed;
+  z-index: 40;
+  align-content: center;
+  display: flex;
+  right: 20px;
+  bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.facebook-button {
+  background-color: transparent;
+  border: none;
+}
+
+.instagram-button {
+  background-color: transparent;
+  border: none;
+}
+
+.facebook-image {
+  width: 50px;
+}
+
+.instagram-image {
+  width: 50px;
+  margin-top: 5px;
+}

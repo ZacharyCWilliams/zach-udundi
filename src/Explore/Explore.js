@@ -1,8 +1,9 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "./Explore.scss";
 
-export default function Explore() {
+export default function Explore({ handleShowBox, showInfo }) {
 
   useEffect(() => {
     AOS.init({
@@ -11,12 +12,14 @@ export default function Explore() {
   });
 
   return (
-    <div>
-      <h1 className="explore" data-aos="zoom-in">
-        Explore
-      </h1>
+    <div className={!showInfo ? null : "hidden"}>
+      <div className="explore-header-container">
+        <h1 className="explore-header" data-aos="zoom-in">
+          Explore
+        </h1>
+      </div>
       <div className="more-details-container">
-        <button className="plus-button">
+        <button className="plus-button" onClick={handleShowBox}>
           <img
             data-aos="fade-up"
             className="plus-button"

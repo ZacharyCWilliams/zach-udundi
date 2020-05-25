@@ -1,0 +1,160 @@
+.explore-header {
+  position: fixed;
+  font-size: 200px;
+  color: white;
+  z-index: 40;
+  margin-left: 12%;
+  margin-top: 23%;
+  font-family: serif;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.more-details-container {
+  display: flex;
+  margin-left: 20%;
+}
+
+.plus-button {
+  width: 35px;
+  height: 35px;
+  text-decoration: none;
+  border: none !important;
+  outline: none !important;
+  position: fixed;
+  z-index: 40;
+  fill: #fff;
+  background-color: transparent;
+  margin-top: 18.8%;
+  margin-left: -2.5%;
+}
+
+.more-details {
+  position: fixed;
+  font-size: 21px;
+  color: white;
+  z-index: 40;
+  margin-top: 39%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: -0.3%;
+}
+
+@media screen and (max-width: 900px) {
+
+  .explore-header-container {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .explore-header {
+    margin: 30% 0px 0px 0px;
+    font-size: 140px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  .explore-header-container {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .explore-header {
+    // margin-left: 19%;
+    // margin-top: 33%;
+    margin: 30% 0px 0px 0px;
+    font-size: 140px;
+  }  
+}
+
+@media screen and (max-width: 700px) {
+  .explore-header-container {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .explore-header {
+    margin: 40% 0px 0px 0px;
+    font-size: 120px;
+  }  
+
+  .plus-button {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    position: fixed;
+    z-index: 40;
+    align-content: center;
+    display: flex;
+    right: 28.5px;
+    bottom: 142px;
+  }
+
+  .more-details {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .explore-header-container {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .explore-header {
+    margin: 50% 0px 0px 0px;
+    font-size: 120px;
+  }  
+
+  .plus-button {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    position: fixed;
+    z-index: 40;
+    align-content: center;
+    display: flex;
+    right: 28.5px;
+    bottom: 142px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .explore-header {
+    font-size: 100px;
+    margin: 50% 0px 0px 0px;
+  }  
+
+  .more-details {
+    display: none;
+  }
+
+  .plus-button {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    position: fixed;
+    z-index: 40;
+    align-content: center;
+    display: flex;
+    right: 28.5px;
+    bottom: 142px;
+  }
+}

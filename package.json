@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.1.2",
     "aos": "^2.3.4",
     "bootstrap": "^4.5.0",
+    "bounce.js": "^0.8.2",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
