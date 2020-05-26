@@ -63,3 +63,18 @@
   outline: none;
   border: none;
 }
+
+
+
+@media screen and (max-width: 500px) {
+  .info-box {
+    width: 450px;
+    height: 520px;
+    position: fixed;
+    background-color: white;
+    z-index: 60;
+    margin-left: 5%;
+    margin-top: 8%;
+    padding: 45px;
+  }
+}
