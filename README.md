@@ -1,6 +1,6 @@
 ## Udundi Wireframe Challenge
 
-You can view the live project here:
+You can view the live project here: [https://udundi-challenge.firebaseapp.com/](https://udundi-challenge.firebaseapp.com/)
 
 ## How to deploy the project locally
 
